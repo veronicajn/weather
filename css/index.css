@@ -1,0 +1,117 @@
+body{
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: grey;
+    width: 769px;
+}
+.color{
+    color: grey;
+   
+}
+#bloque1, p{
+    margin-top: -13px;
+}
+#bloque1{
+    margin-top: 33px;
+    margin-left: 36px;
+    
+}
+#bloque2{
+    margin-left: 498px;
+    margin-top: -76px;
+}
+#bloq3{
+    display: flex;
+}
+#imagen1{
+      
+    width: 100px;
+    height: 100px;
+    margin-left: 34px;
+}
+#temp{
+   
+    margin-left: 19px;
+    font-size: 68px;
+    color: black;
+    margin-top: 14px;
+}
+#C{
+    margin-left: 20px;
+    font-size: 21px;
+    color: black;
+}
+#bloque4{
+    margin-left: 492px;
+    margin-top: -137px;
+}
+.boton {
+    margin-left: -5px;
+    height: 37px;
+    border-radius: 3px;
+    float: left;
+    border: 1px solid #7474744d;
+    font-weight: bold;
+    font-size: 11px;
+}
+#bloque5{
+    display: flex;
+    margin-top: 174px;
+    margin-left: 50px;
+}
+.bloque-tiempo{
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width:667px){ 
+
+        body{
+            width: 500px;
+            border: none;
+        }
+        #bloque1, p{
+            margin-top: -13px;
+            font-size: 30px;
+            width: 329px;
+        }
+        #cuerpo{
+            margin-left: 197px;
+            margin-top: 68px;
+        }
+
+        #bloque2 {
+            margin-left: 35px;
+            margin-top: 200px;
+            
+        }
+        #bloq3{
+            margin-top: -326px;
+            margin-left: -59px;
+            border-bottom: 1px solid;
+        }
+        #bloque4{
+            margin-top: 113px;
+            margin-left: 23px;
+        }
+        .boton{
+            
+            margin-top: 75px;
+            height: 43px;
+            border-radius: 3px;
+            float: left;
+            border: 1px solid #7474744d;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        #bloque5{
+            margin-left: -28px;
+            margin-top: 205px;
+        }
+       .bloque-tiempo{
+            margin-left: -156px;
+            margin-bottom: 10px;
+       }
+    }
